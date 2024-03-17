@@ -68,6 +68,7 @@ func main() {
 	json, _ := json.Marshal(times)
 	file.Write(json)
 
+	fmt.Println("Timings Updated!")
 	os.Exit(0)
 
 }
